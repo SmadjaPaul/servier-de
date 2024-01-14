@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-servier"
+version = "0.1.0"
+description = "dependence for running the technical test"
+authors = ["Smadja Paul"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.4"
+apache-airflow = "*"
+pytest = "^7.4.4"
+chardet = "^5.2.0"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
